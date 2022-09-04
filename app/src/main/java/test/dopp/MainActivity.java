@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {
-						textview1.setTextColor(0xFFF44336);
+						textview1.setTextColor(0xFFFF00);
 					}
 				});
 			}
@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
 				runOnUiThread(new Runnable() {
 					@Override
 					public void run() {
-						textview1.setTextColor(0xFF304FFE);
+						textview1.setTextColor(0x76FF03);
 					}
 				});
 			}
@@ -128,4 +128,4 @@ public class MainActivity extends Activity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
